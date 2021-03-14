@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.15'
+    }
+}
+
+plugins {
+    id "com.google.protobuf" version "0.8.15"
+    id "java"
+}
+
+apply plugin: 'idea'
+
+group 'com.github.srinav.protobuf'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile 'com.google.protobuf:protobuf-java:3.15.5'
+}
+
+
+
+
+protobuf {
+    // Configure the protoc executable
+    protoc {
+        // Download from repositories
+        artifact = 'com.google.protobuf:protoc:3.15.5'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
