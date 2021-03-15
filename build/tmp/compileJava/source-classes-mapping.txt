@@ -56,3 +56,22 @@ com/example/options/OptionMessageTestOrBuilder.java
  com.example.options.OptionMessageTestOrBuilder
 com/github/srinav/protobuf/ProtoToJsonMain.java
  com.github.srinav.protobuf.ProtoToJsonMain
+com/example/tutorial/AddressBookProtos.java
+ com.example.tutorial.AddressBookProtos
+ com.example.tutorial.AddressBookProtos$1
+ com.example.tutorial.AddressBookProtos$AddressBook
+ com.example.tutorial.AddressBookProtos$AddressBook$1
+ com.example.tutorial.AddressBookProtos$AddressBook$Builder
+ com.example.tutorial.AddressBookProtos$AddressBookOrBuilder
+ com.example.tutorial.AddressBookProtos$Person
+ com.example.tutorial.AddressBookProtos$Person$1
+ com.example.tutorial.AddressBookProtos$Person$Builder
+ com.example.tutorial.AddressBookProtos$Person$PhoneNumber
+ com.example.tutorial.AddressBookProtos$Person$PhoneNumber$1
+ com.example.tutorial.AddressBookProtos$Person$PhoneNumber$Builder
+ com.example.tutorial.AddressBookProtos$Person$PhoneNumberOrBuilder
+ com.example.tutorial.AddressBookProtos$Person$PhoneType
+ com.example.tutorial.AddressBookProtos$Person$PhoneType$1
+ com.example.tutorial.AddressBookProtos$PersonOrBuilder
+com/github/srinav/protobuf/AddressBookMain.java
+ com.github.srinav.protobuf.AddressBookMain
