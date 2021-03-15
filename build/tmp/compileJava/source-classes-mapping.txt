@@ -27,3 +27,32 @@ example/enumerations/EnumExample.java
  example.enumerations.EnumExample$EnumMessageOrBuilder
 com/github/srinav/protobuf/EnumMain.java
  com.github.srinav.protobuf.EnumMain
+example/complex/Complex.java
+ example.complex.Complex
+ example.complex.Complex$1
+ example.complex.Complex$ComplexMessage
+ example.complex.Complex$ComplexMessage$1
+ example.complex.Complex$ComplexMessage$Builder
+ example.complex.Complex$ComplexMessageOrBuilder
+ example.complex.Complex$DummyMessage
+ example.complex.Complex$DummyMessage$1
+ example.complex.Complex$DummyMessage$Builder
+ example.complex.Complex$DummyMessageOrBuilder
+com/example/options/OptionsExample.java
+ com.example.options.OptionsExample
+com/example/options/OptionMessageOther.java
+ com.example.options.OptionMessageOther
+ com.example.options.OptionMessageOther$1
+ com.example.options.OptionMessageOther$Builder
+com/example/options/OptionMessageOtherOrBuilder.java
+ com.example.options.OptionMessageOtherOrBuilder
+com/example/options/OptionMessageTest.java
+ com.example.options.OptionMessageTest
+ com.example.options.OptionMessageTest$1
+ com.example.options.OptionMessageTest$Builder
+com/github/srinav/protobuf/ComplexMain.java
+ com.github.srinav.protobuf.ComplexMain
+com/example/options/OptionMessageTestOrBuilder.java
+ com.example.options.OptionMessageTestOrBuilder
+com/github/srinav/protobuf/ProtoToJsonMain.java
+ com.github.srinav.protobuf.ProtoToJsonMain
